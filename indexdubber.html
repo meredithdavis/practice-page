@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Become a Dubber</title>
+</head>
+<h1>Sign up for more information</h1>
+	<form action="www.example.com/subscribe.php" method="get">
+		<p>Join the affinity party</p>
+        <p>Username:
+        	<input type="text" name="username" maxlength="10"/>
+        </p>
+        <p>Password:
+        	<input type="password" name="password" maxlength="15"/>
+        </p>
+        <p>Comments?
+        	<textarea type="comments">Say 'em here...</textarea>
+        </p>
+        <hr />
+        <p>Which type of dubstep is your favorite?
+        	<input type="checkbox" name="type" value="Buh"/>Buh
+            <input type="checkbox" name="type" value="Bump"/>Bump
+            <input type="checkbox" name="type" value="Cha" checked="checked"/>Cha
+        </p>
+         <p>Which type of dubstep is your favorite?
+        	<input type="radio" name="type" value="Buh"/>Buh
+            <input type="radio" name="type" value="Bump"/>Bump
+            <input type="radio" name="type" value="Cha" checked="checked"/>Cha
+        </p>
+        <hr />
+        <p>Where do you like to listen to Dubstep?</p>
+        	<select name="venue" size="3" multiple="multiple">
+            	<option value="Music Festival">Music Festival</option>
+                <option value="Underground Rave">Underground Rave</option>
+                <option value="Headphones">Headphones</option>
+                <option value="Space">Space</option>
+                <option value="Never">Never</option>
+            </select>
+    </form>
+       <hr />
+    <form action="http://www.example.com/upload.php" method="post">
+    	<p>Upload your own remix!</p>
+        <input type="file" value="user_upload"/><br />
+        <input type="submit" value="Put it Here"/>              
+	</form>
+	<form>
+    	<p>Want some dubstep spam?</p>
+        <input type="text" name="email"/>
+        <input type="submit" name="subscribe" value="Spammed"/>
+        <input type="image" src="Images/pixeltitletiny.jpg"/>
+    </form>
+<body>
+</body>
+</html>
